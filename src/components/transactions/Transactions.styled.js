@@ -8,7 +8,7 @@ export const Transacrions = styled.table`
 
   background-color: var(--bg);
 
-  box-shadow: var(--main-shadow);
+  box-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 `;
 
@@ -18,7 +18,7 @@ export const TableHeader = styled.thead`
   width: 100%;
   display: block;
 
-  box-shadow: var(--main-shadow);
+  box-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 `;
 
@@ -38,7 +38,7 @@ export const HeaderTitle = styled.th`
   color: var(--accent);
   text-align: left;
 
-  text-shadow: var(--main-shadow);
+  text-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
 `;
 
 export const TableBody = styled.tbody`
@@ -53,7 +53,7 @@ export const BodyRow = styled.tr`
   align-items: center;
   justify-content: space-between;
 
-  box-shadow: var(--main-shadow);
+  box-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 `;
 
@@ -63,7 +63,7 @@ export const BodyValue = styled.td`
   flex-basis: 33.333%;
 
   font-weight: 500;
-  color: var(--secondary);
+  color: #858585;
 
-  text-shadow: var(--main-shadow);
+  text-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
 `;
